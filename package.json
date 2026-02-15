@@ -1,0 +1,18 @@
+{
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "Task Management & Tracking System - Root Package",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install && cd ../admin-panel && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:admin": "cd admin-panel && npm run dev",
+    "backend": "npm run dev:backend",
+    "frontend": "npm run dev:frontend",
+    "admin": "npm run dev:admin"
+  },
+  "keywords": ["task-management", "fullstack"],
+  "author": "Your Team",
+  "license": "MIT"
+}
